@@ -1,0 +1,295 @@
+---
+title: "Module 6: Elements of Style"
+subtitle: "EME6665: Synthesis, Analysis, & Argumentation"
+author: "Dr. Bret Staudt Willet"
+date: "March 27, 2023"
+output:
+  xaringan::moon_reader:
+    lib_dir: libs
+    seal: true
+    css: [default, 'custom.css', 'custom-fonts.css']
+    nature:
+      titleSlideClass: [left, bottom]
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+---
+
+```{r setup, include=FALSE}
+usethis::use_git_ignore(c("*.csv", "*.rds"))
+options(htmltools.dir.version = FALSE)
+
+library(knitr)
+library(tidyverse)
+library(xaringan)
+library(fontawesome)
+```
+
+class: inverse, center, middle
+
+# `r fa("fas fa-images", fill = "#fff")`
+
+**View the slides:** 
+
+[bretsw.com/eme6665-ss23-module6](https://bretsw.com/eme6665-ss23-module6)
+
+---
+
+class: inverse, center, middle
+
+# `r fa("comments", fill = "#fff")` <br><br> Module 5 Discussion <br> Themes
+
+---
+
+# `r fa("comments", fill = "#fff")` Structure
+
+```{r, out.width = "720px%", echo = FALSE, fig.align = "center"}
+include_graphics("img/frame.jpg")
+```
+
+Your problem (introduction) and framework sections can help to **provide structure** to your lit review
+
+---
+
+# `r fa("comments", fill = "#fff")` Bridge
+
+```{r, out.width = "720px", echo = FALSE, fig.align = "center"}
+include_graphics("img/bridge.jpg")
+```
+
+Your lit review is a **bridge between** the problem (introduction) and your research questions
+
+---
+
+# `r fa("comments", fill = "#fff")` IFF
+
+```{r, out.width = "600px", echo = FALSE, fig.align = "center"}
+include_graphics("img/necessary-sufficient.jpg")
+```
+
+Your lit review should include only what *must* be there:
+
+--
+
+- "If-and-Only-If: **necessary and sufficient**"
+
+--
+
+- What are the "load-bearing" walls in your lit review?
+
+---
+
+class: inverse, center, middle
+
+# `r fa("fas fa-book-open", fill = "#fff")` <br><br> Module 6: <br> Elements of Style
+
+---
+
+# `r fa("fas fa-book-open", fill = "#fff")` Module 6 Readings
+
+### Galvan & Galvan, 2017, Chapter 10
+*Guidelines for Writing a First Draft*
+
+--
+
+<hr>
+
+**✓ Guideline 1:** Begin by Identify the Broad Problem Area, But Avoid Global Statements
+
+--
+
+  - *You will actually take care of this in your Introduction section of the prospectus*
+
+--
+
+**✓ Guideline 2:** Early in the Review, Indicate Why the Topic Being Reviewed is Important
+
+--
+
+  - *You should do this in an introductory paragraph at the beginning of the lit review, prior to the sections you've outlined*
+
+--
+
+  - *Include a "roadmap" statement*
+
+--
+
+**✓ Guideline 3:** Distinguish Between Research Findings and Other Sources of Information
+
+--
+
+**✓ Guideline 4:** Indicate Why Certain Studies Are Important
+
+---
+
+# `r fa("fas fa-book-open", fill = "#fff")` Module 6 Readings
+
+### Galvan & Galvan, 2017, Chapter 10
+*Guidelines for Writing a First Draft*
+
+<hr>
+
+**✓ Guideline 5:** If You Are Commenting on the Timeliness of a Topic, Be Specific in Describing the Time Frame
+
+--
+
+**✓ Guideline 6:** If Citing a Classic or Landmark Study, Identify It as Such
+
+--
+
+  - *Consider using language like "seminal" or "foundational"*
+
+--
+
+  - *Explain why you consider the study to be this important*
+
+--
+
+**✓ Guideline 8:** Discuss Other Literature Reviews on Your Topic
+
+--
+
+  - *Your work in Module 4 should help here*
+
+--
+
+**✓ Guideline 10:** Justify Comments Such As "No Studies Were Found"
+
+--
+
+**✓ Guideline 11:** Avoid Long Lists of Nonspecific References
+
+---
+
+# `r fa("fas fa-book-open", fill = "#fff")` Module 6 Readings
+
+### Galvan & Galvan, 2017, Chapter 10
+*Guidelines for Writing a First Draft*
+
+<hr>
+
+**✓ Guideline 12:** If the Results of Previous Studies Are Inconsistent of Widely Varying, Cite Them Separately
+
+--
+
+**✓ Guideline 13:** Speculate on the Reasons for Inconsistent Findings in Previous Research
+
+--
+
+  - *Be sure to justify your speculation (i.e., provide evidence)*
+  
+--
+
+**✓ Guideline 15:** Emphasize the Need for Your Study in the Literature Review Section or Chapter
+
+--
+
+  - *Remember that your lit review is making an argument*
+
+---
+
+# `r fa("fas fa-book-open", fill = "#fff")` General Style
+
+```{r, out.width = "400px", echo = FALSE, fig.align = "center"}
+include_graphics("img/6-style.jpg")
+```
+
+--
+
+- APA style: refer to [Purdue OWL](https://owl.purdue.edu/owl/research_and_citation/apa_style/apa_style_introduction.html) often
+
+--
+
+  - Write in the **first person**: "In this study, **I** will..."
+
+--
+
+  - Use singular "**they**" when referring to a cited author
+
+--
+
+  - Use **past tense**: they already said it; they are not necessarily still saying it
+
+--
+
+  - Use "**et al.**" any time you are citing 3 or more authors
+
+--
+
+  - Be careful with **capitalization** and **italics** in your reference list
+
+---
+
+class: inverse, center, middle
+
+# `r fa("fas fa-binoculars", fill = "#fff")` <br><br> Looking ahead
+
+---
+
+# `r fa("fas fa-calendar-day", fill = "#fff")` Semester schedule
+
+- Module 1: Threads of Chapter One
+
+- Module 2: Do You Trust Me?
+
+- Module 3: A Handbook's Tale
+
+- Module 4: Systematic Not Automatic
+
+- Module 5: Synthesis Over Summary
+
+- **Module 6: Elements of Style (for Academic Writing)**
+
+- Module 7: Weaving Together Chapter One
+
+---
+
+
+# `r fa("fas fa-calendar-day", fill = "#fff")` Peer Review Assignment
+
+```{r, out.width = "240px", echo = FALSE, fig.align = "center"}
+include_graphics("img/peer-review.jpg")
+```
+
+--
+
+**Objective:** Provide **constructive feedback** on classmates’ completed subsection assignment.
+
+--
+
+<hr>
+
+Follow the rubric from the *Module 5 Assignment: One Completed Subsection* to:
+
+--
+
+- Assess the strengths and weaknesses of **two** classmates' work.
+
+--
+
+- Keep in mind the kind of feedback you would like to receive on your own work, and try to offer this to your classmates. 
+
+--
+
+- It doesn't help your peers to only say "This is great!" or "This is a mess." Explain why!
+
+--
+
+### Specific comments and suggestions are often the most helpful!
+
+---
+
+class: inverse, center, middle
+
+# `r fa("fas fa-question", fill = "#fff")` <br><br> Questions
+
+<hr>
+
+**What questions can I answer for you now?**
+
+**How can I support you this week?**
+
+<hr>
+
+`r fa("envelope", fill = "#fff")` [bret.staudtwillet@fsu.edu](mailto:bret.staudtwillet@fsu.edu) | `r fa("globe", fill = "#fff")` [bretsw.com](https://bretsw.com) | `r fa("fab fa-github", fill = "#fff")` [GitHub](https://github.com/bretsw/)
+
